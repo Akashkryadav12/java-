@@ -1,0 +1,35 @@
+
+<!-- saved from url=(0075)file:///C:/Users/Lenovo/Desktop/akash%20html/New%20folder/Registration.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>Registretion Form</title>
+        <script>
+            function Passvalues()
+            {
+                varname=document.getElementById("name").value;
+                varemail=document.getElementById("email").value;
+                varaddres=document.getElementById("address").value;
+                 varaddres=document.getElementById("qualification").value;
+                localStorage.setItem("name",name);localStorage.setItem("email",email);localStorage.setItem("address",address);localStorage.setItem("qualification",qualification);
+                return;
+            }
+            </script>
+             </head>
+             <body>
+                <h1>Registration Form</h1>
+                <form action="file:///C:/Users/Lenovo/Desktop/akash%20html/New%20folder/Details.html">
+                    <fieldset>
+                        <legend>Registration</legend>
+                        <label>Name</label>
+                        <input type="text" id="name"><br><br>
+                        <label>EmailID</label>
+                        <input type="email" id="email"><br><br>
+                        <label>Address</label>
+                        <input type="address" id="address"><br><br>
+                        <label>qualification</label>
+                        <input type="qualification" id="qualification"><br><br>
+                        <input type="Submit" values="submit" oneclick="passvalues()">
+
+                    </fieldset>
+                </form>
+             
+             </body></html>
